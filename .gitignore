@@ -1,0 +1,21 @@
+# Node & monorepo
+node_modules/
+socket-io-client/node_modules/
+socket-io-server/node_modules/
+
+# Builds
+build/
+dist/
+socket-io-client/build/
+socket-io-server/build/
+
+# Env & logs
+.env
+.env.*
+npm-debug.log*
+yarn-error.log*
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
